@@ -1,0 +1,30 @@
+{
+    "@type": "moz:Mosaic",
+    "dc:title": "INSPIRE",
+    "resources": [
+        {
+            "@type": "moz:Resource",
+            "dc:title": "DIRECTIVE 2007/2/EC",
+            "moz:url": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002&from=FR",
+            "moz:mimeType": "application/pdf"
+        }
+    ],
+    "annotations": [
+        {
+            "@type": "oa:Annotation",
+            "dc:title": "Discovery Services",
+            "oa:from": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002&from=FR",
+            "oa:fromFragment": "page=7&xywh=323,502,241,45",
+            "oa:to": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32009R0976&from=EN",
+            "oa:toFragment": "page=4"
+        },
+        {
+            "@type": "oa:Annotation",
+            "oa:fromFragment": "page=7&xywh=323,437,241,45",
+            "dc:title": "View Services",
+            "oa:from": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002&from=FR",
+            "oa:to": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32009R0976&from=EN",
+            "oa:toFragment": "page=8"
+        }
+    ]
+}
