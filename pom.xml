@@ -34,26 +34,36 @@
                 </executions>
             </plugin>
 
-
             <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
                 <executions>
                     <execution>
+                        <id>unpack</id>
                         <phase>package</phase>
                         <goals>
-                            <goal>exec</goal>
+                            <goal>unpack</goal>
                         </goals>
+                        <configuration>
+                            <artifactItems>
+                                <artifactItem>
+                                    <groupId>eu.europa.ec.jrc</groupId>
+                                    <artifactId>mosaics-jrc-app</artifactId>
+                                    <version>0.1-SNAPSHOT</version>
+                                    <classifier>web</classifier>
+                                    <type>zip</type>
+                                    <overWrite>true</overWrite>
+                                </artifactItem>
+                            </artifactItems>
+                            <includes>**/*.*</includes>
+                            <outputDirectory>${project.build.directory}/classes/web</outputDirectory>
+                            <overWriteReleases>false</overWriteReleases>
+                            <overWriteSnapshots>true</overWriteSnapshots>
+                        </configuration>
                     </execution>
                 </executions>
-                <configuration>
-                    <executable>bower</executable>
-                    <arguments>
-                        <argument>install</argument>
-                    </arguments>
-
-                </configuration>
             </plugin>
+
         </plugins>
     </build>
 

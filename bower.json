@@ -1,9 +1,0 @@
-{
-  "name": "mosaics-jrc-server",
-  "version": "1.0.0",
-  "dependencies": {
-    "mosaics-jrc-app": "*"
-  },
-  "devDependencies": {},
-  "appPath": "classes/web"
-}
