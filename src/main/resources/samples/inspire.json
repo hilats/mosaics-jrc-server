@@ -21,7 +21,6 @@
                 }
             },
             "target" : {
-                "format": "video/youtube",
                 "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002&from=FR",
                 "selector": {
                     "type": "FragmentSelector",
@@ -40,7 +39,6 @@
                 }
             },
             "target" : {
-                "format": "video/youtube",
                 "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002&from=FR",
                 "selector": {
                     "type": "FragmentSelector",
