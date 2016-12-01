@@ -5,45 +5,156 @@
         {
             "type": "moz:Resource",
             "dc:title": "INSPIRE DIRECTIVE 2007/2/EC",
-            "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002&from=FR",
+            "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002",
             "format": "application/pdf"
+        },
+        {
+            "type": "moz:Resource",
+            "dc:title": "Implementing Directive - Network Services",
+            "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02009R0976-20101228",
+            "format": "application/pdf"
+        } ,
+
+        {
+            "type": "moz:Resource",
+            "dc:title": "Implementing Directive - Monitoring & Reporting",
+            "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32009D0442"
+        },
+        {
+            "type": "moz:Resource",
+            "dc:title": "Implementing Directive - Metadata",
+            "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32008R1205"
+        },
+        {
+            "type": "moz:Resource",
+            "dc:title": "Implementing Directive - Spatial Data Services",
+            "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014R1312"
+        },
+        {
+            "type": "moz:Resource",
+            "dc:title": "Implementing Directive - Data & Service Sharing",
+            "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32010R0268"
         }
     ],
     "annotations": [
         {
             "type": "Annotation",
-            "dc:title": "Discovery Services",
-            "body" : {
-                "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32009R0976&from=EN",
-                "selector": {
-                    "type": "FragmentSelector",
-                    "value": "page=4"
-                }
+            "dc:title": "Metadata",
+            "body": {
+                "moz:linkType": "http://inspire.ec.europa.eu/mosaics/hasImplementationRule",
+                "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32008R1205"
             },
-            "target" : {
-                "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002&from=FR",
+            "target": {
                 "selector": {
                     "type": "FragmentSelector",
-                    "value": "page=7&xywh=323,502,241,45"
-                }
+                    "value": "page=6&xywh=128,742,46,11"
+                },
+                "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002"
             }
         },
         {
             "type": "Annotation",
-            "dc:title": "View Services",
-            "body" : {
-                "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32009R0976&from=EN",
+            "dc:title": "Network Services",
+            "body": {
+                "moz:linkType": "http://inspire.ec.europa.eu/mosaics/hasImplementationRule",
+                "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02009R0976-20101228"
+            },
+            "target": {
                 "selector": {
                     "type": "FragmentSelector",
-                    "value": "page=8"
+                    "value": "page=7&xywh=402,611,83,11"
+                },
+                "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002"
+            }
+        },
+        {
+            "target": {
+                "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002",
+                "selector": {
+                    "type": "FragmentSelector",
+                    "value": "page=9&xywh=145,381,63,11"
                 }
             },
-            "target" : {
-                "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002&from=FR",
+            "type": "Annotation",
+            "body": {
+                "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32010R0268",
+                "moz:linkType": "http://inspire.ec.europa.eu/mosaics/hasImplementationRule"
+            },
+            "dc:title": "Data Sharing"
+        },
+        {
+            "type": "Annotation",
+            "dc:title": "Discovery Services",
+            "body": {
+                "moz:linkType": "http://inspire.ec.europa.eu/mosaics/hasImplementationRule",
+                "selector": {
+                    "type": "FragmentSelector",
+                    "value": "page=6&xywh=199,727,97,10"
+                },
+                "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02009R0976-20101228"
+            },
+            "target": {
+                "selector": {
+                    "type": "FragmentSelector",
+                    "value": "page=7&xywh=323,502,241,45"
+                },
+                "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002"
+            }
+        } ,
+        {
+            "type": "Annotation",
+            "dc:title": "View Services",
+            "body": {
+                "moz:linkType": "http://inspire.ec.europa.eu/mosaics/hasImplementationRule",
+                "selector": {
+                    "type": "FragmentSelector",
+                    "value": "page=10&xywh=213,725,70,10"
+                },
+                "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02009R0976-20101228"
+            },
+            "target": {
                 "selector": {
                     "type": "FragmentSelector",
                     "value": "page=7&xywh=323,437,241,45"
-                }
+                },
+                "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002"
+            }
+        },
+        {
+            "type": "Annotation",
+            "dc:title": "Transformation Services",
+            "body": {
+                "selector": {
+                    "type": "FragmentSelector",
+                    "value": "page=19&xywh=183,725,129,10"
+                },
+                "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02009R0976-20101228"
+            },
+            "target": {
+                "selector": {
+                    "type": "FragmentSelector",
+                    "value": "page=7&xywh=326,315,240,22"
+                },
+                "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002"
+            }
+        },
+        {
+            "type": "Annotation",
+            "dc:title": "Download Services",
+            "body": {
+                "moz:linkType": "http://inspire.ec.europa.eu/mosaics/hasImplementationRule",
+                "selector": {
+                    "type": "FragmentSelector",
+                    "value": "page=14&xywh=199,720,98,10"
+                },
+                "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02009R0976-20101228"
+            },
+            "target": {
+                "selector": {
+                    "type": "FragmentSelector",
+                    "value": "page=7&xywh=323,370,241,33"
+                },
+                "source": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002"
             }
         }
     ]
